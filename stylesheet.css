@@ -1,0 +1,49 @@
+div {
+    border-radius: 5px;
+}
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: #F3FFE2;
+}
+
+a {
+    color: #98D4D6;
+}
+
+#header {
+    height: 90px;
+    width: 100%;
+    background-color: #1695A3;
+    position: fixed;
+    z-index: 1;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+
+.left {
+    height: 450px;
+    width: 25%;
+    background-color: #EB7F00;
+    float: left;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.right {
+    height: 550px;
+    width: 70%;
+    background-color: #F3FFE2;
+    float: right;
+    margin-top: 100px;
+    padding: 5px;
+}
+
+#footer {
+    height: 50px;
+    width: 100%;
+    background-color: #225378;
+    clear: both;
+    position:relative;
+    bottom: 0px;
+}
